@@ -23,7 +23,7 @@ jobs:
         conda env update --file environment.yml --name base
     - name: Run Python Program
       run: |
-       python Scientific_Calculator_Design.py
+       python PycharmProjects/PythonProject/Scientific_Calculator_Design.py
 
    
     
