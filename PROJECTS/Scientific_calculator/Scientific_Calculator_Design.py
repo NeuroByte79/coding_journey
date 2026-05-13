@@ -53,7 +53,7 @@ def evaluate(expr):
             while (operators and operators[-1] != '(' and
                    Precedence[operators[-1]] >= Precedence[token]):
                 apply_op(values, operators.pop())
-            operators.append(token)
+            operators.append(token) 
     while operators:
         apply_op(values, operators.pop())
 
