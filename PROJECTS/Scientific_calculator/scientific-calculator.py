@@ -1,4 +1,4 @@
-# version1.1
+# version0.1
 # Simple calculator
 print("@@@@ Welcome to self made calculator $$$$$$ ")
 operator = input("Enter operator('+','-','*','/') : ")
